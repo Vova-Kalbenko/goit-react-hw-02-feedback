@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-// import style from './FeedbackOptions.module.css';
+import css from './FeedbackOptions.module.css';
 
 export const FeedBackOptions = ({ options, onLeaveFeedback }) => {
   return (
@@ -10,6 +10,7 @@ export const FeedBackOptions = ({ options, onLeaveFeedback }) => {
             key={option}
             type="button"
             name={option}
+            className={css.button}
             onClick={() => onLeaveFeedback(option)}
           >
             {option}
