@@ -18,6 +18,8 @@ class Feedback extends Component {
     const { good, neutral, bad } = this.state;
     return good + neutral + bad;
   };
+  // функция хэендлСтатЧендж измееяет превстейт опшена который подтягиваеться с 
+// 7 строки файла фибдбэкОпшен
   countPositiveFeedbackPercentage = () => {
     const { good, neutral, bad } = this.state;
     const total = good + neutral + bad;

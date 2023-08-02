@@ -26,5 +26,7 @@ Statistics.propTypes = {
   total: PropTypes.number.isRequired,
   positivePercentage: PropTypes.number.isRequired,
 };
-
+//В этом файле есть разметка которая в свои значения принимает дескрутк парамерты
+//с главного файла(фидбек),где гуд нейтрал,бэд,это значения стейта а тотал и позитив
+//это значения созданые перед рендером
 
